@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    background-color: grey;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-text {
+  text-align: center;
+}
+
+.description-container {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width:200px;
+}
+
+.my-name {
+  font-family: 'B612 Mono', monospace;
+  background-color: grey;
+}
+
+.pulsating-title {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* https://www.kevinleary.net/pulsating-css3-animations/ */
+.pulsate {
+    color: white;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#soft-eng {
+  font-family: 'B612 Mono', monospace;
+}
